@@ -1,0 +1,18 @@
+2025-11-28 12:49:10,080 [INFO] Emoji_movie_trivia: Transmitting cipher='sd' to receiver=<__main__.Player_receiver object at 0x7ce41c216c00>
+2025-11-28 12:49:11,562 [INFO] Emoji_movie_trivia: Verifying original='Titanic', deciphered='sd'
+2025-11-28 12:49:12,386 [INFO] Emoji_movie_trivia: Transmitting cipher='sd' to receiver=<__main__.Player_receiver object at 0x7ce41c216c00>
+2025-11-28 12:49:13,020 [INFO] Emoji_movie_trivia: Verifying original='Jurassic Park', deciphered='sd'
+2025-11-28 12:49:14,021 [INFO] Emoji_movie_trivia: Transmitting cipher='sd' to receiver=<__main__.Player_receiver object at 0x7ce41c216c00>
+2025-11-28 12:49:15,878 [INFO] Emoji_movie_trivia: Verifying original='Parasite', deciphered='sd'
+2025-11-28 12:49:23,616 [INFO] Emoji_movie_trivia: Transmitting cipher='as' to receiver=<__main__.Player_receiver object at 0x7ce41c1548c0>
+2025-11-28 12:49:23,104 [INFO] Emoji_movie_trivia: Verifying original='Titanic', deciphered='as'
+2025-11-28 12:49:23,888 [INFO] Emoji_movie_trivia: Transmitting cipher='as' to receiver=<__main__.Player_receiver object at 0x7ce41c1548c0>
+2025-11-28 12:49:24,943 [INFO] Emoji_movie_trivia: Verifying original='Jurassic Park', deciphered='as'
+2025-11-28 12:49:26,956 [INFO] Emoji_movie_trivia: Transmitting cipher='as' to receiver=<__main__.Player_receiver object at 0x7ce41c1548c0>
+2025-11-28 12:49:28,122 [INFO] Emoji_movie_trivia: Verifying original='Parasite', deciphered='as'
+2025-11-28 12:49:56,980 [INFO] Emoji_movie_trivia: Transmitting cipher='a' to receiver=<__main__.Player_receiver object at 0x7ce41c156030>
+2025-11-28 12:49:59,853 [INFO] Emoji_movie_trivia: Verifying original='Titanic', deciphered='titanic'
+2025-11-28 12:50:01,436 [INFO] Emoji_movie_trivia: Transmitting cipher='a' to receiver=<__main__.Player_receiver object at 0x7ce41c156030>
+2025-11-28 12:50:02,045 [INFO] Emoji_movie_trivia: Verifying original='Jurassic Park', deciphered='a'
+2025-11-28 12:50:02,473 [INFO] Emoji_movie_trivia: Transmitting cipher='a' to receiver=<__main__.Player_receiver object at 0x7ce41c156030>
+2025-11-28 12:50:02,977 [INFO] Emoji_movie_trivia: Verifying original='Parasite', deciphered='a'
