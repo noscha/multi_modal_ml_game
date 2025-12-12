@@ -7,5 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "jupyter>=1.1.1",
     "notebook>=7.5.0",
+    "openai>=2.11.0",
+    "pillow>=12.0.0",
     "regex>=2025.11.3",
 ]
