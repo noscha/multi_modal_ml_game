@@ -17,3 +17,5 @@
 2025-11-28 12:50:02,473 [INFO] Emoji_movie_trivia: Transmitting cipher='a' to receiver=<__main__.Player_receiver object at 0x7ce41c156030>
 2025-11-28 12:50:02,977 [INFO] Emoji_movie_trivia: Verifying original='Parasite', deciphered='a'
 2025-12-17 14:27:03,865 [INFO] httpx: HTTP Request: POST https://chat.web.webis.de/openai/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 13:49:03,168 [INFO] openai._base_client: Retrying request to /chat/completions in 0.467833 seconds
+2026-01-16 13:54:16,481 [INFO] openai._base_client: Retrying request to /chat/completions in 0.926190 seconds
