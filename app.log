@@ -1,21 +1,1249 @@
-2025-11-28 12:49:10,080 [INFO] Emoji_movie_trivia: Transmitting cipher='sd' to receiver=<__main__.Player_receiver object at 0x7ce41c216c00>
-2025-11-28 12:49:11,562 [INFO] Emoji_movie_trivia: Verifying original='Titanic', deciphered='sd'
-2025-11-28 12:49:12,386 [INFO] Emoji_movie_trivia: Transmitting cipher='sd' to receiver=<__main__.Player_receiver object at 0x7ce41c216c00>
-2025-11-28 12:49:13,020 [INFO] Emoji_movie_trivia: Verifying original='Jurassic Park', deciphered='sd'
-2025-11-28 12:49:14,021 [INFO] Emoji_movie_trivia: Transmitting cipher='sd' to receiver=<__main__.Player_receiver object at 0x7ce41c216c00>
-2025-11-28 12:49:15,878 [INFO] Emoji_movie_trivia: Verifying original='Parasite', deciphered='sd'
-2025-11-28 12:49:23,616 [INFO] Emoji_movie_trivia: Transmitting cipher='as' to receiver=<__main__.Player_receiver object at 0x7ce41c1548c0>
-2025-11-28 12:49:23,104 [INFO] Emoji_movie_trivia: Verifying original='Titanic', deciphered='as'
-2025-11-28 12:49:23,888 [INFO] Emoji_movie_trivia: Transmitting cipher='as' to receiver=<__main__.Player_receiver object at 0x7ce41c1548c0>
-2025-11-28 12:49:24,943 [INFO] Emoji_movie_trivia: Verifying original='Jurassic Park', deciphered='as'
-2025-11-28 12:49:26,956 [INFO] Emoji_movie_trivia: Transmitting cipher='as' to receiver=<__main__.Player_receiver object at 0x7ce41c1548c0>
-2025-11-28 12:49:28,122 [INFO] Emoji_movie_trivia: Verifying original='Parasite', deciphered='as'
-2025-11-28 12:49:56,980 [INFO] Emoji_movie_trivia: Transmitting cipher='a' to receiver=<__main__.Player_receiver object at 0x7ce41c156030>
-2025-11-28 12:49:59,853 [INFO] Emoji_movie_trivia: Verifying original='Titanic', deciphered='titanic'
-2025-11-28 12:50:01,436 [INFO] Emoji_movie_trivia: Transmitting cipher='a' to receiver=<__main__.Player_receiver object at 0x7ce41c156030>
-2025-11-28 12:50:02,045 [INFO] Emoji_movie_trivia: Verifying original='Jurassic Park', deciphered='a'
-2025-11-28 12:50:02,473 [INFO] Emoji_movie_trivia: Transmitting cipher='a' to receiver=<__main__.Player_receiver object at 0x7ce41c156030>
-2025-11-28 12:50:02,977 [INFO] Emoji_movie_trivia: Verifying original='Parasite', deciphered='a'
-2025-12-17 14:27:03,865 [INFO] httpx: HTTP Request: POST https://chat.web.webis.de/openai/chat/completions "HTTP/1.1 200 OK"
-2026-01-16 13:49:03,168 [INFO] openai._base_client: Retrying request to /chat/completions in 0.467833 seconds
-2026-01-16 13:54:16,481 [INFO] openai._base_client: Retrying request to /chat/completions in 0.926190 seconds
+2026-04-15 15:43:23,841 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:43:24,192 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 15:43:24,716 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:43:26,486 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:43:27,054 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:43:27,609 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:43:27,960 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:43:28,328 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:43:28,780 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:43:48,771 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 15:43:49,145 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:43:49,608 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:45:55,366 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:45:55,998 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:46:08,815 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:46:06,907 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:46:12,148 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:46:12,702 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:46:36,358 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:46:36,709 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 15:46:37,074 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:46:37,435 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:47:32,494 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:47:33,053 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:47:33,624 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:47:38,316 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:47:38,886 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:47:38,769 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:47:48,665 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:47:49,288 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:47:49,874 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:47:57,531 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:47:58,155 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:47:58,737 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:48:03,552 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:48:04,117 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:48:04,677 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:48:09,216 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:48:09,773 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:48:12,132 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:48:12,697 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:48:18,024 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:48:18,599 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:48:20,336 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:48:20,962 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:48:24,467 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:48:25,062 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:48:25,646 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 15:49:08,049 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:49:08,607 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:49:22,149 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 15:49:22,505 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 15:49:24,149 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:49:24,728 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:50:09,509 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:50:07,436 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:50:12,715 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:50:13,300 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:50:13,883 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:50:15,072 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:50:15,700 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:50:32,698 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:50:33,278 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:50:33,855 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:50:35,023 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:50:35,620 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:50:39,128 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:50:37,235 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:52:07,338 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:52:07,665 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:52:08,023 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:52:08,391 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:54:55,627 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 15:54:55,987 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:55:23,262 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:55:23,835 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:56:25,258 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:56:25,861 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:56:28,236 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:56:28,842 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:56:32,413 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:56:33,017 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:56:33,571 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:56:38,255 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:56:38,868 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:56:39,849 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:56:40,429 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:56:40,964 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:57:40,948 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 15:57:41,309 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:57:41,797 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:58:45,149 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:58:45,726 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:59:05,622 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:59:06,199 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:59:06,787 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:59:15,219 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:59:15,781 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:59:16,933 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:59:17,508 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:59:18,072 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:59:18,661 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:59:19,270 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:59:19,830 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:59:37,827 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:59:38,405 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:59:38,986 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:59:57,797 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:59:58,373 [INFO] watchfiles.main: 1 change detected
+2026-04-15 15:59:59,000 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:00:03,060 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:00:03,627 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:01:25,086 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:01:25,458 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:01:25,817 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:04:10,441 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:04:10,801 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:04:11,167 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:04:11,547 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:02,208 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:02,568 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:09:02,929 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:08,062 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:08,643 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:09,788 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:10,340 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:10,964 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:16,001 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:16,579 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:17,163 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:17,782 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:27,721 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:28,296 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:28,876 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:41,489 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:42,051 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:42,620 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:43,232 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:43,789 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:44,974 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:45,547 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:46,158 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:46,739 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:48,553 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:49,129 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:09:49,719 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:10:05,032 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:10:05,628 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:10:06,222 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:10:06,819 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:10:09,176 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:10:09,773 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:10:18,722 [INFO] httpx: HTTP Request: POST https://chat.web.webis.de/openai/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-15 16:10:18,902 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:10:20,612 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:10:21,209 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:10:21,799 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:12:38,170 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:12:38,532 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:12:50,121 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:12:50,746 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:12:55,483 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:12:56,013 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:12:56,599 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:12:59,280 [INFO] httpx: HTTP Request: POST https://chat.web.webis.de/openai/chat/completions "HTTP/1.1 403 Forbidden"
+2026-04-15 16:12:59,577 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:13:00,764 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:13:01,360 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:13:01,956 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:22:12,744 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:22:13,108 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:22:13,682 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:22:18,179 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:22:18,530 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:22:20,826 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:22:21,379 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:22:21,987 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:22:24,105 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:22:24,737 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:22:40,924 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:22:41,445 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:22:42,072 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:22:42,647 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:22:44,972 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:22:45,540 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:22:46,112 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:22:46,708 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:22:48,897 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:22:49,064 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:22:49,630 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:22:50,772 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:22:51,388 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:22:52,003 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:23:06,902 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:23:07,479 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:23:08,001 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:23:22,745 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:23:23,335 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:23:23,977 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:23:49,501 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:23:49,953 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:23:51,166 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:23:51,756 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:23:57,607 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:23:55,883 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:23,697 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:24,326 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:24,900 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:25,956 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:26,529 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:27,155 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:27,746 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:28,329 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:28,918 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:34,867 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:35,396 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:36,034 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:36,615 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:38,282 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:24:38,417 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:39,582 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:40,206 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:40,835 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:44,954 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:45,539 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:46,168 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:46,721 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:52,599 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:53,196 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:53,792 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:56,092 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:24:56,715 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:24:55,421 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:25:02,236 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:25:02,610 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:25:02,975 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:25:04,811 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:25:05,408 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:25:05,992 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:25:07,829 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:25:08,426 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:25:09,022 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:25:09,619 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:25:15,229 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:25:15,573 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:25:16,766 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:25:17,363 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:25:17,959 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:25:26,184 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:25:26,765 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:26:15,220 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:26:15,860 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:26:17,038 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:26:17,661 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:26:21,234 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:26:21,829 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:26:25,466 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:26:25,824 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:26:26,992 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:26:27,565 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:26:28,160 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:26:28,750 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:26:32,901 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:26:33,556 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:26:34,135 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:26:34,730 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:26:56,378 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:26:56,943 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:26:59,134 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:26:59,725 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:27:02,173 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:27:02,666 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:27:03,842 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:27:04,419 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:27:05,004 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:27:17,359 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:27:17,935 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:27:27,264 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:27:27,868 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:27:28,822 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:27:29,431 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:27:30,007 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:27:30,584 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:27:50,041 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:27:50,397 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:27:50,767 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:27:54,363 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:27:54,935 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:27:55,567 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:27:56,106 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:27:56,739 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:27:55,472 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:28:03,671 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:28:04,291 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:28:04,862 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:28:07,223 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:28:07,798 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:28:12,503 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:28:13,076 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:28:13,650 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:28:18,905 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:28:19,474 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:28:20,048 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:28:20,633 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:28:25,822 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:28:26,315 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:28:26,933 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:28:27,193 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:28:27,498 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:28:28,289 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:28:28,702 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:28:29,416 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:28:29,870 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:28:31,064 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:28:31,633 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:28:34,025 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:28:34,608 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:29:42,636 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:29:43,252 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:29:43,823 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:29:50,289 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:29:50,905 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:29:52,150 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:29:52,687 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:29:56,204 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:29:56,800 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:30:31,040 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:30:31,597 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:30:32,784 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:30:33,340 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:30:33,897 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:30:35,342 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:30:35,695 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:30:36,047 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:30:36,407 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:30:41,495 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:30:42,052 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:30:42,663 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:30:52,107 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:30:52,643 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:30:54,372 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:30:54,915 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:30:57,795 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:30:58,370 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:30:58,965 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:01,762 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:01,937 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:02,508 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:03,129 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:03,135 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:03,693 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:31:04,310 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:04,921 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:31:05,389 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:05,485 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:06,465 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:06,678 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:07,559 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:07,925 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:08,467 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:08,678 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:09,047 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:31:09,644 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:09,745 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:10,877 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:11,433 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:31:12,030 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:12,043 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:12,626 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:31:13,128 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:13,206 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:13,802 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:14,219 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:14,398 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:15,300 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:15,568 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:16,157 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:16,433 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:16,749 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:17,488 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:17,942 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:18,653 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:19,131 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:31:19,727 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:19,770 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:20,269 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:20,853 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:20,863 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:21,459 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:22,035 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:22,056 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:22,649 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:23,141 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:23,245 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:23,842 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:24,293 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:24,438 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:25,014 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:25,383 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:25,610 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:26,207 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:26,451 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:26,798 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:27,609 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:27,992 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:31:26,187 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:27,408 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:27,863 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:28,472 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:28,982 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:29,582 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:30,227 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:31:30,705 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:30,769 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:31,366 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:31,838 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:31,962 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:32,549 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:32,993 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:33,142 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:33,734 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:31:34,070 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:34,323 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:35,226 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:35,507 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:31:36,369 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:36,752 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:31:37,476 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:37,878 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:31:38,543 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:39,053 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:39,649 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:39,717 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:40,241 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:40,802 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:40,837 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:41,434 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:41,936 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:31:42,030 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:42,609 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:44,936 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:45,473 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:46,069 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:31:46,605 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:32:05,043 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:32:05,657 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:32:07,415 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:32:07,936 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:32:20,565 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:32:21,148 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:32:21,724 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:32:23,420 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:32:24,033 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:32:24,639 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:32:30,345 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:32:30,918 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:32:32,173 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:32:32,769 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:32:37,534 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:32:38,126 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:32:38,720 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:32:39,762 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:32:39,874 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:32:41,102 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:32:41,709 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:32:57,165 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:32:57,761 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:33:04,084 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:33:04,680 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:33:08,875 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:33:09,466 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:33:10,085 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:33:10,665 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:33:14,267 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:33:14,893 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:33:18,180 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:33:18,436 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:33:19,066 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:33:19,352 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:33:19,716 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:33:20,918 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:33:21,525 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:33:22,078 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:33:22,714 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:33:23,636 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:33:24,016 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:33:24,450 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:33:25,046 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:33:25,696 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:34:09,386 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:34:09,950 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:34:16,865 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:34:17,443 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:34:18,007 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:34:18,580 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:34:29,479 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:34:30,076 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:34:30,666 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:34:32,374 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:34:32,954 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:34:34,786 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:34:35,379 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:34:35,960 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:34:37,173 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:34:37,757 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:34:40,648 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:34:41,218 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:34:41,802 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:34:42,374 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:34:42,942 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:34:44,091 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:34:44,674 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:34:47,006 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:34:47,586 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:35:24,759 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:35:24,784 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:35:25,389 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:35:25,960 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:35:26,160 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:35:26,551 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:35:27,338 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:35:27,724 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:35:26,135 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:35:26,427 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:35:27,391 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:35:27,647 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:35:29,382 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:35:29,978 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:35:38,142 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:35:38,737 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:35:40,839 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:35:41,142 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:35:41,715 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:35:42,335 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:35:42,406 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:35:42,912 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:35:43,620 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:35:44,138 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:35:44,680 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:35:44,945 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:35:45,319 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:35:45,916 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:35:46,304 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:35:46,490 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:35:47,655 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:35:48,271 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:35:48,868 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:35:48,871 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:35:49,442 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:35:50,054 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:35:50,061 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:35:50,678 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:35:51,329 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:35:51,894 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:35:52,751 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:35:53,130 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:35:53,704 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:35:54,025 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:35:54,368 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:35:56,739 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:35:57,311 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:35:57,935 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:36:09,005 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:36:09,368 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:36:09,724 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:38:21,211 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:38:21,783 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:38:24,059 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:38:24,636 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:38:26,374 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:38:26,965 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:38:36,119 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:38:36,696 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:38:44,860 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:38:45,492 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:38:46,065 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:38:46,640 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:38:48,849 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:38:49,051 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:38:49,619 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:38:49,944 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:38:51,475 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:38:52,093 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:38:52,688 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:38:57,171 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:38:57,529 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:38:57,893 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:39:13,211 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:39:13,797 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:39:20,297 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:39:20,929 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:39:26,818 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:39:27,403 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:39:27,918 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:39:27,750 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:39:31,911 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:39:32,474 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:39:33,091 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:39:33,658 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:39:34,219 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:39:34,845 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:39:37,172 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:39:37,789 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:39:39,302 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:39:39,562 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:39:40,926 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:39:41,355 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:39:41,926 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:39:42,273 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:39:42,541 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:39:43,743 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:39:44,316 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:39:44,911 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:40:01,502 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:40:02,019 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:40:02,623 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:40:36,316 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:40:36,919 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:40:38,062 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:40:38,626 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:40:41,045 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:40:41,615 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:40:43,922 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:40:44,502 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:40:45,113 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:40:45,681 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:40:46,256 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:40:46,826 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:40:58,545 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:40:59,115 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:40:59,684 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:41:02,651 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:03,293 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:03,882 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:15,588 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:16,160 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:16,730 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:27,834 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:28,407 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:26,512 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:31,794 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:32,372 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:32,932 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:39,975 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:40,547 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:41,130 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:41,705 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:42,590 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:42,961 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:43,312 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:43,429 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:41:43,672 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:41:45,262 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:45,507 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:41:45,886 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:46,988 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:41:47,041 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:47,611 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:48,433 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:41:48,826 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:41:49,982 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:41:50,036 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:50,670 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:51,823 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:52,312 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:41:52,387 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:54,103 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:41:54,207 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:41:55,506 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:41:55,974 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:41:57,154 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:57,542 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:41:57,762 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:41:56,527 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:42:27,640 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:42:28,208 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:42:28,821 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:42:30,024 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:42:30,597 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:42:34,144 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:42:34,704 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:42:43,929 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:42:44,547 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:42:45,156 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:42:45,772 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:42:49,217 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:42:49,787 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:42:50,978 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:42:51,534 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:42:52,148 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:42:52,721 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:42:54,511 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:42:55,080 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:42:55,657 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:42:57,450 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:42:58,017 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:42:58,629 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:00,953 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:01,579 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:02,204 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:02,778 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:06,670 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:06,968 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:43:08,194 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:08,428 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:08,773 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:09,987 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:10,123 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:10,606 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:11,780 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:11,893 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:12,415 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:12,997 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:13,586 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:13,643 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:14,166 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:14,757 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:15,242 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:15,381 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:43:17,051 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:17,215 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:43:18,797 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:18,942 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:43:20,563 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:20,730 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:43:22,350 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:22,514 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:43:23,835 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:24,311 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:43:24,933 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:25,505 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:25,967 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:26,134 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:26,700 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:27,609 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:27,935 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:43:26,731 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:29,075 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:29,631 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:33,182 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:33,748 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:39,664 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:40,218 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:40,820 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:45,765 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:46,167 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:43:46,730 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:47,342 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:47,552 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:47,902 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:49,103 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:49,305 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:49,717 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:50,867 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:51,009 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:51,488 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:52,669 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:53,278 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:43:53,857 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:54,124 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:54,434 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:55,895 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:56,244 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:43:56,823 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:57,337 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:57,426 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:56,552 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:56,736 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:58,221 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:43:58,502 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:43:59,993 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:44:00,286 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:00,868 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:01,438 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:01,953 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:44:02,057 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:02,631 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:03,670 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:44:03,855 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:05,283 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:44:05,767 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:06,788 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:44:06,924 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:44:08,440 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:44:08,715 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:44:10,108 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:44:10,501 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:11,781 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:44:12,250 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:44:12,822 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:14,411 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:44:14,714 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:44:16,281 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:44:16,456 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:17,649 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:18,222 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:18,744 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:44:18,857 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:20,412 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:44:20,633 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:21,220 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:21,790 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:21,911 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:44:23,420 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:44:23,595 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:24,172 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:24,767 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:24,961 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:44:26,696 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:44:27,233 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:27,810 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:28,444 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:28,587 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:44:26,587 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:43,112 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:43,545 [INFO] watchfiles.main: 3 changes detected
+2026-04-15 16:44:50,704 [INFO] watchfiles.main: 3 changes detected
+2026-04-15 16:44:51,283 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:51,892 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:57,026 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:44:57,581 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:02,864 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:03,430 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:04,038 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:04,560 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:05,175 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:05,749 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:06,389 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:06,956 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:08,115 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:08,741 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:18,835 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:19,408 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:20,131 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:20,794 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:45:21,989 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:22,624 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:23,211 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:23,790 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:49,435 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:50,005 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:50,619 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:54,683 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:55,270 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:55,857 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:58,765 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:45:56,860 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:46:04,418 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:46:05,006 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:46:05,538 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:46:53,490 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:46:54,073 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:46:54,654 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:46:55,823 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:46:56,406 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:46:56,989 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:46:58,217 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:46:58,784 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:46:59,985 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:47:00,664 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:47:01,245 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:47:01,838 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:47:38,365 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:47:38,725 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:47:39,085 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:47:39,445 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:47:52,391 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:47:53,001 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:48:03,745 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 413 Request Entity Too Large"
+2026-04-15 16:48:03,927 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:48:04,448 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:48:05,024 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:48:05,690 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:48:06,307 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:48:06,930 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:18,064 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:49:18,596 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:22,101 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:49:22,682 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:27,851 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:28,426 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:29,006 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:29,545 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:35,990 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:36,563 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:37,136 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:37,715 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:41,013 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:49:41,194 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:42,926 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:42,935 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:49:43,558 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:44,100 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:44,751 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:49:45,417 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:49:45,882 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:47,075 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:47,671 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:48,032 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:49:48,202 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:49,947 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:50,360 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:49:50,530 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:52,270 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:49:52,283 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:52,849 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:54,077 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:54,216 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:49:54,638 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:55,837 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:56,442 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:56,513 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:49:57,050 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:57,604 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:58,258 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:58,454 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:49:58,812 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:49:58,450 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:50:00,472 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:01,005 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:50:01,025 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:01,643 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:02,850 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:03,447 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:03,891 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:50:04,043 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:04,586 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:05,776 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:06,372 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:06,969 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:07,620 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:08,162 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:08,758 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:12,169 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:12,766 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:14,554 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:15,150 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:15,747 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:19,899 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:20,441 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:21,034 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:21,628 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:24,462 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:50:24,557 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:50:26,345 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:26,725 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:27,104 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:27,538 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:50:40,023 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:40,613 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:44,807 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:45,338 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:45,923 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:47,748 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:48,332 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:48,920 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:51,112 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:50:51,283 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:50:53,057 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:53,641 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:59,345 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:50:59,930 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:52:28,670 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:52:29,216 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:52:27,312 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:52:27,652 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:53:06,943 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:53:07,510 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:53:08,112 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:53:08,676 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:53:10,448 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:53:11,027 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:53:11,621 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:53:11,979 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:53:12,505 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 16:53:12,879 [INFO] watchfiles.main: 1 change detected
+2026-04-15 16:58:02,530 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 16:58:27,366 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 17:06:17,777 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 17:06:18,244 [INFO] watchfiles.main: 1 change detected
+2026-04-15 17:06:18,825 [INFO] watchfiles.main: 1 change detected
+2026-04-15 18:08:42,262 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 18:08:42,613 [INFO] watchfiles.main: 1 change detected
+2026-04-15 18:13:09,899 [INFO] watchfiles.main: 1 change detected
+2026-04-15 18:13:10,374 [INFO] watchfiles.main: 1 change detected
+2026-04-15 18:13:10,828 [INFO] watchfiles.main: 1 change detected
+2026-04-15 18:13:11,184 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 18:13:11,548 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 18:13:10,450 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 18:22:40,648 [INFO] openai._base_client: Retrying request to /chat/completions in 0.458010 seconds
+2026-04-15 18:22:41,011 [INFO] watchfiles.main: 1 change detected
+2026-04-15 18:22:41,562 [INFO] watchfiles.main: 1 change detected
+2026-04-15 18:22:46,150 [INFO] openai._base_client: Retrying request to /chat/completions in 0.854299 seconds
+2026-04-15 18:22:46,469 [INFO] watchfiles.main: 1 change detected
+2026-04-15 18:22:52,048 [ERROR] asyncio: Task exception was never retrieved
+future: <Task finished name='Task-153' coro=<main.<locals>.on_send_clicked() done, defined at /home/noah/multi_modal_ml_game/game.py:144> exception=APITimeoutError('Request timed out.')>
+Traceback (most recent call last):
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpcore/_backends/sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 982, in request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/noah/multi_modal_ml_game/game.py", line 162, in on_send_clicked
+    await prompt_turn()
+  File "/home/noah/multi_modal_ml_game/game.py", line 195, in prompt_turn
+    done = await ai_submit_until_valid(game, own_id, bot_id, bot_avatar)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/game.py", line 22, in ai_submit_until_valid
+    response = await asyncio.to_thread(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/game_interface_and_emoji_trivia_prototype.py", line 386, in present_data
+    response = send_request(payload)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/game_interface_and_emoji_trivia_prototype.py", line 667, in send_request
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1192, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1000, in request
+    raise APITimeoutError(request=request) from err
+openai.APITimeoutError: Request timed out.
+2026-04-15 18:22:52,528 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:39:08,916 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 20:39:09,208 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:39:09,758 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:42:23,503 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 20:42:23,877 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:42:27,373 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:42:27,956 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:42:28,861 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 20:42:29,229 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:42:29,752 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:42:36,188 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:42:36,762 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:42:37,114 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 20:42:37,472 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:42:36,825 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:42:37,761 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 20:42:38,123 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:42:38,608 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:44:08,164 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 20:44:09,033 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:44:09,399 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:45:56,711 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 20:45:56,821 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:47:01,033 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 20:47:01,267 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:47:38,049 [INFO] watchfiles.main: 2 changes detected
+2026-04-15 20:47:38,402 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:47:44,833 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:47:45,396 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:47:46,063 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:47:46,616 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:47:47,231 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:47:47,806 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:47:50,188 [INFO] watchfiles.main: 1 change detected
+2026-04-15 20:47:50,794 [INFO] watchfiles.main: 1 change detected
+2026-04-16 11:53:59,687 [INFO] openai._base_client: Retrying request to /chat/completions in 0.393069 seconds
+2026-04-16 11:54:00,374 [INFO] watchfiles.main: 1 change detected
+2026-04-16 11:54:00,957 [INFO] watchfiles.main: 1 change detected
+2026-04-16 11:54:04,642 [INFO] openai._base_client: Retrying request to /chat/completions in 0.840949 seconds
+2026-04-16 11:54:05,166 [INFO] watchfiles.main: 1 change detected
+2026-04-16 11:54:05,762 [INFO] watchfiles.main: 1 change detected
+2026-04-16 11:54:10,049 [ERROR] asyncio: Task exception was never retrieved
+future: <Task finished name='Task-184' coro=<main.<locals>.on_send_clicked() done, defined at /home/noah/multi_modal_ml_game/game.py:144> exception=APITimeoutError('Request timed out.')>
+Traceback (most recent call last):
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpcore/_backends/sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 982, in request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/noah/multi_modal_ml_game/game.py", line 162, in on_send_clicked
+    await prompt_turn()
+  File "/home/noah/multi_modal_ml_game/game.py", line 195, in prompt_turn
+    done = await ai_submit_until_valid(game, own_id, bot_id, bot_avatar)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/game.py", line 22, in ai_submit_until_valid
+    response = await asyncio.to_thread(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/game_interface_and_emoji_trivia_prototype.py", line 386, in present_data
+    response = send_request(payload)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/game_interface_and_emoji_trivia_prototype.py", line 667, in send_request
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1192, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noah/multi_modal_ml_game/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1000, in request
+    raise APITimeoutError(request=request) from err
+openai.APITimeoutError: Request timed out.
+2026-04-16 11:54:10,566 [INFO] watchfiles.main: 1 change detected
+2026-04-16 13:35:47,947 [INFO] watchfiles.main: 1 change detected
+2026-04-16 13:35:48,305 [INFO] watchfiles.main: 1 change detected
+2026-04-16 13:35:48,668 [INFO] watchfiles.main: 2 changes detected
+2026-04-16 13:35:46,111 [INFO] watchfiles.main: 1 change detected
+2026-04-16 13:44:49,380 [INFO] watchfiles.main: 1 change detected
+2026-04-16 13:44:49,748 [INFO] watchfiles.main: 1 change detected
+2026-04-16 13:44:50,109 [INFO] watchfiles.main: 1 change detected
+2026-04-16 13:44:50,477 [INFO] watchfiles.main: 1 change detected
+2026-04-16 13:50:50,584 [INFO] watchfiles.main: 1 change detected
+2026-04-16 13:50:50,942 [INFO] watchfiles.main: 1 change detected
+2026-04-16 13:50:51,310 [INFO] watchfiles.main: 1 change detected
+2026-04-16 13:50:51,695 [INFO] watchfiles.main: 1 change detected
+2026-04-16 14:00:35,173 [INFO] watchfiles.main: 2 changes detected
+2026-04-16 14:00:35,530 [INFO] watchfiles.main: 1 change detected
+2026-04-16 14:01:31,216 [INFO] watchfiles.main: 1 change detected
+2026-04-16 14:01:31,803 [INFO] watchfiles.main: 1 change detected
+2026-04-16 14:41:54,354 [INFO] watchfiles.main: 1 change detected
+2026-04-16 14:41:54,705 [INFO] watchfiles.main: 1 change detected
+2026-04-16 14:41:55,056 [INFO] watchfiles.main: 1 change detected
+2026-04-16 14:41:55,406 [INFO] watchfiles.main: 1 change detected
+2026-04-16 14:58:38,194 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 14:58:38,643 [INFO] watchfiles.main: 1 change detected
+2026-04-16 14:58:55,568 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 14:58:56,070 [INFO] watchfiles.main: 1 change detected
+2026-04-16 14:58:56,621 [INFO] watchfiles.main: 1 change detected
+2026-04-16 14:59:09,848 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 14:59:10,192 [INFO] watchfiles.main: 1 change detected
+2026-04-16 14:59:10,743 [INFO] watchfiles.main: 1 change detected
+2026-04-16 14:59:24,090 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 14:59:24,214 [INFO] watchfiles.main: 1 change detected
+2026-04-16 14:59:47,030 [INFO] httpx: HTTP Request: POST https://llm.srv.webis.de/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 14:59:47,651 [INFO] watchfiles.main: 1 change detected

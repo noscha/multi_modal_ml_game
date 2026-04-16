@@ -13,3 +13,7 @@ wheels/
 # jupyter notebook
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+
+# project specific
+images
+rater
