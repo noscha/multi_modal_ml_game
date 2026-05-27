@@ -98,7 +98,7 @@ def fit_glmm(formula, data):
     ).fit_vb()
 
 
-file_path = "rater/ImageAnnotation_second_non rater.ods"
+file_path = "rater/ImageAnnotation_ai_aware_captioning_condition.ods"
 
 df, ratings, item_id = load_ratings(file_path)
 

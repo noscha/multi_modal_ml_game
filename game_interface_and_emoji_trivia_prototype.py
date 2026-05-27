@@ -18,8 +18,6 @@ import logging
 import regex
 
 
-
-
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
@@ -44,13 +42,11 @@ VALIDATING = 2
 
 @dataclass
 class Alphabet:
-    def __init__(
-        self, alphabet_name: str, indexed_letters: AlphabetType, type: int
-    ):
+    def __init__(self, alphabet_name: str, indexed_letters: AlphabetType, type: int):
 
         self.alphabet_name = alphabet_name
         self.indexed_letters = indexed_letters
-        # TODO self.seperator = "" 
+        # TODO self.seperator = ""
         self.type = type  # 0: list[str], l: dict[str, QueryType]
 
 
@@ -81,10 +77,16 @@ class Task:
     def __init__(
         self,
         examples: list[Example],
-        description: tuple[str, str, str,]
+        description: tuple[
+            str,
+            str,
+            str,
+        ],
     ):
-        self.examples = examples        
-        self.encode_description, self.decode_description, self.validate_description = description
+        self.examples = examples
+        self.encode_description, self.decode_description, self.validate_description = (
+            description
+        )
 
 
 @dataclass()
@@ -95,9 +97,7 @@ class RoundState:
     Class used for logging
     """
 
-    def __init__(
-        self, example: Example
-    ):
+    def __init__(self, example: Example):
         self.example = example
         self.cipher = None
         self.ciphers = []
@@ -128,42 +128,42 @@ class Signature(ABC):
 class WordsSignature(Signature, ABC):
     """Signature allowing arbitrary combinations of symbols."""
 
-    NAME = "" # "Valid is any word over the alphabet"
+    NAME = ""  # "Valid is any word over the alphabet"
     pass
 
 
 class NWordsSignature(Signature, ABC):
     """Signature restricting words to maximum length n."""
 
-    NAME = "" # "Valid is any word over the alphabet of length n"
+    NAME = ""  # "Valid is any word over the alphabet of length n"
     pass
 
 
 class SingleChoiceSignature(Signature, ABC):
     """Signature restricted to a single symbol."""
 
-    NAME = "" # "Valid is any single choice of the alphabet"
+    NAME = ""  # "Valid is any single choice of the alphabet"
     pass
 
 
 class MultipleChoiceSignature(Signature, ABC):
     """Signature restricted to a fixed number of symbols."""
 
-    NAME = "" # "Valid is a non repeating choice of four symbols"  # TODO. n
+    NAME = ""  # "Valid is a non repeating choice of four symbols"  # TODO. n
     pass
 
 
 class PermutationsSignature(Signature, ABC):
     """Signature restricted to permutation of the entire alphabet."""
 
-    NAME = "" # "Valid is a permutation of the alphabet"
+    NAME = ""  # "Valid is a permutation of the alphabet"
     pass
 
 
 class VariationSignature(Signature, ABC):
     """Signature allowing variation of the alphabet."""
 
-    NAME = "" # "Valid is a variation of the alphabet"
+    NAME = ""  # "Valid is a variation of the alphabet"
     pass
 
 
@@ -216,7 +216,9 @@ class Agent(ABC):
         self.adapter = adapter_cls()
 
     @abstractmethod
-    def ask_adapter_for_query(self, round_state: RoundState) -> QueryType:
+    def ask_adapter_for_query(
+        self, round_state: RoundState, description: str
+    ) -> QueryType:
         """Run the adapter to produce a query."""
         pass
 
@@ -276,6 +278,7 @@ class Game(ABC):
         """Pull input via adapter and forward it to submit()."""
         pass
 
+
 # %%
 # -----------------------------
 # Signatures
@@ -319,8 +322,8 @@ class MyHumanAdapter(HumanAdapter):
 
         show_query(query_alphabet, query)
 
-        #print(f"\n{signature_name}")
-        #print(f"\nAlphabet: ")
+        print(f"\n{signature_name}")
+        print("\nAlphabet: ")
 
         show_alphabet(task_alphabet)
 
@@ -328,7 +331,7 @@ class MyHumanAdapter(HumanAdapter):
 
     def get_data(self, response):
         query = input("\nEnter: ")
-        #print(f"\nYou typed: {query}")
+        print(f"\nYou typed: {query}")
 
         return query
 
@@ -348,7 +351,7 @@ class MyAIAdapter(AIAdapter):
                     "Just return the answer, nothing else",
                 ]
             )
-            #print(task)
+            print(task)
             payload = build_multi_modal_payload(final_text=task)
 
         elif isinstance(query_alphabet.indexed_letters, dict):
@@ -359,7 +362,7 @@ class MyAIAdapter(AIAdapter):
                     "Just return the answer, nothing else",
                 ]
             )
-            #print(task)
+            print(task)
             payload = build_multi_modal_payload(
                 image_text_pairs=[
                     (query_alphabet.indexed_letters[k], k) for k in list(query)
@@ -375,6 +378,7 @@ class MyAIAdapter(AIAdapter):
                     "Just return the answer as string of indices, nothing else",
                 ]
             )
+            print(task)
             payload = build_multi_modal_payload(
                 image_text_pairs=[
                     (task_alphabet.indexed_letters[k], k)
@@ -387,12 +391,10 @@ class MyAIAdapter(AIAdapter):
 
         return response
 
-    def get_data(
-        self, response
-    ):
+    def get_data(self, response):
 
         query = get_message_text(response)
-        #print(f"\nYou typed: {query}")
+        print(f"\nYou typed: {query}")
         return query
 
 
@@ -411,7 +413,7 @@ class MyAgent(Agent):
         )
         return self.adapter.get_data(response)
 
-      # Not query from round state, because first query validated then written to round_state
+    # Not query from round state, because first query validated then written to round_state
     def verify_query_with_signature(self, query, round_state):
         _, _, task_alphabet = extract_data(round_state)
         return self.signature.check(query, task_alphabet)
@@ -443,17 +445,15 @@ class MyGame(Game):
         self.agent_receiver = self.agent_receivers[0]
         self.round_state = RoundState(self.task.examples[0])
 
-
     def current_agent_and_description(self):
-        
+
         if self.round_state.phase == ENCODING:
             return self.agent_sender, self.task.encode_description
-        
+
         if self.round_state.phase == DECODING:
             return self.agent_receiver, self.task.decode_description
-        
-        return self.agent_validator, self.task.validate_description
 
+        return self.agent_validator, self.task.validate_description
 
     def get_prompt_data(self):
         agent, desc = self.current_agent_and_description()
@@ -468,13 +468,16 @@ class MyGame(Game):
             "task_alphabet": task_alphabet,
         }
 
-
     def submit(self, query: str):
         agent, _ = self.current_agent_and_description()
 
         ok = agent.verify_query_with_signature(query, self.round_state)
         if not ok:
-            return {"accepted": False, "message": "Invalid for this signature/alphabet.", "done": False}
+            return {
+                "accepted": False,
+                "message": "Invalid for this signature/alphabet.",
+                "done": False,
+            }
 
         # phase ENCODING -> DECODING
         if self.round_state.phase == ENCODING:
@@ -488,7 +491,11 @@ class MyGame(Game):
             self.round_state.message_prime = query
             self.round_state.message_primes.append(query)
             self.round_state.phase = 2
-            return {"accepted": True, "message": "Decoded message accepted.", "done": False}
+            return {
+                "accepted": True,
+                "message": "Decoded message accepted.",
+                "done": False,
+            }
 
         # phase VALIDATING -> next example / done
         self.round_state.points = query
@@ -500,23 +507,41 @@ class MyGame(Game):
             return {"accepted": True, "message": "Next example.", "done": False}
 
         return {"accepted": True, "message": "Task complete.", "done": True}
-    
+
     def step_via_agent(self):
-        
+
         agent, desc = self.current_agent_and_description()
         query = agent.ask_adapter_for_query(self.round_state, desc)
         return self.submit(query)
 
+
 # %%
 if __name__ == "__main__":
-    emoji_alphabet = Alphabet("emojis", ["❄️", "🛳️", "❤️", "💥", "🌊", "🧊", "💀", "🦈", "🚢", "🌹"], 0)
+    emoji_alphabet = Alphabet(
+        "emojis", ["❄️", "🛳️", "❤️", "💥", "🌊", "🧊", "💀", "🦈", "🚢", "🌹"], 0
+    )
     validator_alphabet = Alphabet("Points", ["0", "1"], 0)
     letter_alphabet = Alphabet("lower_letters", list("abcdefghijklmnopqrstuvwxyz"), 0)
     country_alphabet = Alphabet("countries", ["USA", "Germany", "France"], 0)
-    image_alphabet = Alphabet("images", {"0": load_local_image(Path("images/logoA.jpg")), "1": load_local_image(Path("images/logoB.jpg")), "2": load_local_image(Path("images/titanic.jpg")), "3": load_local_image(Path("images/usa_1.jpg"))
-                                             , "4": load_local_image(Path("images/usa_2.jpg")), "5": load_local_image(Path("images/usa_3.jpg")), "6": load_local_image(Path("images/usa_4.jpg"))}, 1)
+    image_alphabet = Alphabet(
+        "images",
+        {
+            "0": load_local_image(Path("images/logoA.jpg")),
+            "1": load_local_image(Path("images/logoB.jpg")),
+            "2": load_local_image(Path("images/titanic.jpg")),
+            "3": load_local_image(Path("images/usa_1.jpg")),
+            "4": load_local_image(Path("images/usa_2.jpg")),
+            "5": load_local_image(Path("images/usa_3.jpg")),
+            "6": load_local_image(Path("images/usa_4.jpg")),
+        },
+        1,
+    )
 
-    description = ("Choose an emoji combination that describes the movie the best", "Which movie is describes by the emoji's", "Is this the movie you had in mind?")
+    description = (
+        "Choose an emoji combination that describes the movie the best",
+        "Which movie is describes by the emoji's",
+        "Is this the movie you had in mind?",
+    )
 
     examples = [
         Example("Titanic", emoji_alphabet, letter_alphabet, validator_alphabet),
@@ -525,15 +550,19 @@ if __name__ == "__main__":
     ]
     task = Task(examples, description)
 
-#--------------------------------------------------------------------------------------------------------------------------#
+    # --------------------------------------------------------------------------------------------------------------------------#
 
-    description_4i1w = ("Choose 4 images which represent the country the best", "Choose the country best described by the four images", "Is this the country you had in mind?")
+    description_4i1w = (
+        "Choose 4 images which represent the country the best",
+        "Choose the country best described by the four images",
+        "Is this the country you had in mind?",
+    )
     examples_4i1w = [
         Example("USA", image_alphabet, country_alphabet, validator_alphabet),
     ]
     task_4i1w = Task(examples_4i1w, description_4i1w)
 
-#--------------------------------------------------------------------------------------------------------------------------#
+    # --------------------------------------------------------------------------------------------------------------------------#
 
     image_alphabet = Alphabet(
         "images",
@@ -568,10 +597,10 @@ if __name__ == "__main__":
         "To which image belongs the following caption",
         "Is the selected image correct? (1 = yes, 0 = no)",
     )
-    
+
     task = Task([example], description)
 
-#--------------------------------------------------------------------------------------------------------------------------#
+    # --------------------------------------------------------------------------------------------------------------------------#
 
     game = MyGame(
         task=task,
@@ -582,7 +611,6 @@ if __name__ == "__main__":
     )
 
     while True:
-        
         result = game.step_via_agent()
 
         print(result["message"])
@@ -601,21 +629,21 @@ def load_local_image(path: Path) -> PImage.Image:
     if not path.exists():
         raise FileNotFoundError(path)
     return PImage.open(path)
-    
+
+
 def show_alphabet(alphabet: Alphabet):
     """
     For each entry in the image alphabet, print the index
     and then display the corresponding image in the notebook.
     """
     if alphabet.type == 0:  # list[str] alphabet
-
         print(f"{alphabet.indexed_letters}")
 
-    else: # dict[] alphabet
-
+    else:  # dict[] alphabet
         for idx, pil_img in alphabet.indexed_letters.items():
             print(idx)
             display(pil_img)
+
 
 def show_query(alphabet: Alphabet, query: QueryType):
     """
@@ -624,19 +652,15 @@ def show_query(alphabet: Alphabet, query: QueryType):
     """
 
     if alphabet.type == 0:  # list[str] alphabet
-
         print(f"\nQuery: {query}")
-        
-    else:  # dict[] alphabet
 
+    else:  # dict[] alphabet
         for index in query:
             if index not in alphabet.indexed_letters:
                 raise KeyError(f"Index '{index}' not found in alphabet.")
             pil_img = alphabet.indexed_letters[index]
             print(index)
             display(pil_img)
-
-
 
 
 def encode_image_base64(image: PImage.Image) -> str:
@@ -686,7 +710,7 @@ def build_multi_modal_payload(
     Build a multimodal payload from optional image-text pairs and a final instruction.
     """
 
-    payload  = []
+    payload = []
 
     # Add image-text pairs if any
     for image, text in image_text_pairs:
@@ -701,13 +725,17 @@ def build_multi_modal_payload(
         )
 
     # Always add the final text
-    #final_text = "To which image belongs the following caption: \"bill\" "
+    # final_text = "To which image belongs the following caption: \"bill\" "
     payload.append({"type": "text", "text": final_text})
+
+    print(payload)
 
     return payload
 
+
 # %%
 # Helper for RoundState
+
 
 def extract_data(round_state: RoundState) -> tuple[QueryType, Alphabet, Alphabet]:
     """
@@ -735,5 +763,3 @@ def extract_data(round_state: RoundState) -> tuple[QueryType, Alphabet, Alphabet
         )
 
     return query, query_alphabet, task_alphabet
-
-
