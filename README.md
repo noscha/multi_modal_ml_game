@@ -22,8 +22,9 @@ A lightweight GUI prototype also exists, but it is optional and not required for
 ## Main files
 
 | File | Purpose |
+|---|---|
 | `game_interface_and_emoji_trivia_prototype.ipynb` | Main notebook-style prototype of the framework. Defines and demonstrates the reusable components described in the paper. This is the preferred entry point for running and experimenting with the framework interactively. |
-| `game_interface_and_emoji_trivia_prototype.py` | Exported Python version of the notebook. Used as an importable module by `game.py` and `chat.py`; not necessarily the main file to run directly. 
+| `game_interface_and_emoji_trivia_prototype.py` | Exported Python version of the notebook. Used as an importable module by `game.py` and `chat.py`; not necessarily the main file to run directly. |
 | `eval.py` | Evaluation script for the rater files. Computes human and AI Fleiss' kappa, human--AI Cohen's kappa, accuracies against `H0`, and label-B logistic models using GEE and GLMM. |
 | `game.py` | Optional NiceGUI wrapper around the game framework. Useful for interactive demos, but not needed for the paper evaluation. |
 | `chat.py` | Helper functions for the optional NiceGUI chat interface. |
